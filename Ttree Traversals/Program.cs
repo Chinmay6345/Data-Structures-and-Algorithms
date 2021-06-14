@@ -25,6 +25,26 @@ namespace Ttree_Traversals
             }
         }
 
+        public void PreOrder(BinaryTree root)
+        {
+            if(root!=null)
+            {
+                Console.Write(root.key + " ");
+                PreOrder(root.left);
+                PreOrder(root.right);
+            }
+        }
+
+        public void PostOrder(BinaryTree root)
+        {
+            if(root!=null)
+            {
+                PostOrder(root.left);
+                PostOrder(root.right);
+                Console.Write(root.key + " ");
+            }
+        }
+
     }
 
     class Program
