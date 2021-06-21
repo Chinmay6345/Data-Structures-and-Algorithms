@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print nodes at distance K",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check for Balanced Binary Tree", "Check for Balanced Binary Tree\Check for Balanced Binary Tree.csproj", "{457ABF94-A21F-44F6-9E3C-958498636649}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum width of Binary Tree", "Maximum width of Binary Tree\Maximum width of Binary Tree.csproj", "{553D5D57-7F77-4BCC-81AB-B3531102BB3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{457ABF94-A21F-44F6-9E3C-958498636649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{457ABF94-A21F-44F6-9E3C-958498636649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{457ABF94-A21F-44F6-9E3C-958498636649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{553D5D57-7F77-4BCC-81AB-B3531102BB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553D5D57-7F77-4BCC-81AB-B3531102BB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553D5D57-7F77-4BCC-81AB-B3531102BB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553D5D57-7F77-4BCC-81AB-B3531102BB3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +110,7 @@ Global
 		{2F5878BC-FCDF-432F-802A-1330EDDFFC38} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 		{C939ACB4-CB8D-46BB-ABAB-C8A812017422} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 		{457ABF94-A21F-44F6-9E3C-958498636649} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
+		{553D5D57-7F77-4BCC-81AB-B3531102BB3B} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A4CBC9B-CFC1-4300-81A9-13D9C0F20D44}
