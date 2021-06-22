@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum width of Binary Tre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Level order Traversal", "Level order Traversal\Level order Traversal.csproj", "{E7974F50-7DAA-4152-8FAB-7EF91C639E7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Children sum property", "Children sum property\Children sum property.csproj", "{09384894-F2A6-4183-AEA0-C3C73044C18F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,10 @@ Global
 		{E7974F50-7DAA-4152-8FAB-7EF91C639E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7974F50-7DAA-4152-8FAB-7EF91C639E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7974F50-7DAA-4152-8FAB-7EF91C639E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09384894-F2A6-4183-AEA0-C3C73044C18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09384894-F2A6-4183-AEA0-C3C73044C18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09384894-F2A6-4183-AEA0-C3C73044C18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09384894-F2A6-4183-AEA0-C3C73044C18F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +124,7 @@ Global
 		{457ABF94-A21F-44F6-9E3C-958498636649} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 		{553D5D57-7F77-4BCC-81AB-B3531102BB3B} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 		{E7974F50-7DAA-4152-8FAB-7EF91C639E7E} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
+		{09384894-F2A6-4183-AEA0-C3C73044C18F} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A4CBC9B-CFC1-4300-81A9-13D9C0F20D44}
