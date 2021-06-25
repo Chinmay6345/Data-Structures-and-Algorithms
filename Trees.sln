@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print left view of Binary t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialize and Deserialize a Binary Tree", "Serialize and Deserialize a Binary Tree\Serialize and Deserialize a Binary Tree.csproj", "{17A10CBA-8D63-45FE-AF94-181C7E7FB4AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count nodes in a complete Binary Tree", "Count nodes in a complete Binary Tree\Count nodes in a complete Binary Tree.csproj", "{F7219D7D-61CA-4037-8B2B-5770EBCC5F1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{17A10CBA-8D63-45FE-AF94-181C7E7FB4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17A10CBA-8D63-45FE-AF94-181C7E7FB4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17A10CBA-8D63-45FE-AF94-181C7E7FB4AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7219D7D-61CA-4037-8B2B-5770EBCC5F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7219D7D-61CA-4037-8B2B-5770EBCC5F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7219D7D-61CA-4037-8B2B-5770EBCC5F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7219D7D-61CA-4037-8B2B-5770EBCC5F1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +145,7 @@ Global
 		{09384894-F2A6-4183-AEA0-C3C73044C18F} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 		{79E0AE89-9F3E-41C6-A0CE-DD2A0D3228C3} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 		{17A10CBA-8D63-45FE-AF94-181C7E7FB4AF} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
+		{F7219D7D-61CA-4037-8B2B-5770EBCC5F1E} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A4CBC9B-CFC1-4300-81A9-13D9C0F20D44}
