@@ -26,6 +26,30 @@ namespace Iterative_Pre_order_traversal
                 curr = curr.right;
             }
         }
+
+        //O(n) =TC and SC
+        public static void PreOrder(TreeNode root)
+        {
+            Stack<TreeNode> stck = new Stack<TreeNode>();
+            TreeNode curr = root;
+            if(curr==null)
+            {
+                return;
+            }
+            stck.Push(curr);
+            while(stck.Any())
+            {
+                TreeNode p = stck.Pop();
+                if(curr.right!=null)
+                {
+                    stck.Push(curr.right);
+                }
+                if (curr.left != null)
+                {
+                    stck.Push(curr.left);
+                }
+            }
+        }
     }
 
 
