@@ -43,6 +43,18 @@ namespace Insert_in_BST
                 parent.right = temp;
             return null;
         }
+        //TC-O(h) SC-O(h)
+        public static TreeNode RInsert(TreeNode root,int x)
+        {
+            if(root==null)
+               return new TreeNode(x);
+            if (root.val > x)
+                root.left = RInsert(root.left, x);
+            else
+                root.right = RInsert(root.right, x);
+            return null;
+
+        }
     }
     class Program
     {
